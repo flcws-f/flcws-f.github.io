@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>电视直播观看-未知节目</title>
+<noscript>Your browser not support JavaScript,please enable JavaScript and reload the page!<br>您的浏览器不支持JavaScript，请启用JavaScript重新加载页面！</noscript>
+  </head>
+  <body>	
+<a href="livetv.html">返回</a>
+	<h1 id="title">电视频道</h1>
+	<video src="" autoplay="auto" width="100%" height="100%" id="vid" preload="auto">Your browser not support watch video,please change the browser!<br>您的浏览器不支持看视频，请更换浏览器！</video>
+<div style="position:fixed;bottom:40%;background-image:linear-gradient(to bottom,transparent,gray);width:100%;">
+<img src='fullscreen.png' width='50' height='50' onclick="full();" id="fullbtn"/>
+<img src='pause.png' width='50' height='50' onclick="pal();" id="palbtn"/>
+<img src='audio.png' width='50' height='50' onclick="aum();" id="aumbtn"/>
+</div>
+  </body>
+<script src="js/jquery.min.js"></script>
+<script src="watch.js"></script>
+<script src="player.js">
+$(document).ready(function(){
+pal();
+aum();
+});
+</script>
+</html>
