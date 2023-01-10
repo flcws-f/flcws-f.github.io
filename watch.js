@@ -2,17 +2,17 @@ $(document).ready(function(){
 hash=document.location.hash;
 if(hash=="#cctv1"){
 title.innerHTML="CCTV1 综合";
-vid.src="http://39.135.138.60:18890/PLTV/88888910/224/3221225618/index.m3u8";
+vid.src="./cctv1.m3u8";
 $("title").html("电视直播观看-CCTV1");
 }
 else if(hash=="#cctv2"){
 title.innerHTML="CCTV2 财经";
-vid.src="http://39.134.115.163:8080/PLTV/88888910/224/3221225619/index.m3u8";
+vid.src="./cctv2.m3u8";
 $("title").html("电视直播观看-CCTV2");
 }
 else if(hash=="#cctv3"){
 title.innerHTML="CCTV3 综艺";
-vid.src="http://39.134.66.110/PLTV/88888888/224/3221225799/index.m3u8";
+vid.src="./cctv3.m3u8";
 $("title").html("电视直播观看-CCTV3");
 }
 else if(hash=="#cctv4"){
