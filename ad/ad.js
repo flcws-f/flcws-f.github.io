@@ -13,5 +13,5 @@ function randomNum(minNum,maxNum){
     } 
 }
 window.onload=function(){
-ad.src="ad"+Math.floor(randomNum(1,10));
+ad.src="ad"+Math.floor(randomNum(1,10))+".png";
 }
