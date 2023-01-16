@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheHealthOfYou的个人博客-Python3实现四位数随机验证码（基础）</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2><a id="_0"></a>上一次是我第一次写博文，没写好，敬请原谅！</h2>
+<h2><a id="random_1"></a>这个程序使用random模块从列表中随机选取一个数字。</h2>
+<h2><a id="_3"></a>废话不多说直接上代码</h2>
+<pre><code>#-*-coding:utf8;-*-
+#在python3控制台里运行
+#导入随机选取模块
+import random
+#生成并存储第一位数字
+a=random.choice(['1','2','3','4','5','6','7','8','9','0'])
+#生成并存储第二位数字
+b=random.choice(['1','2','3','4','5','6','7','8','9','0'])
+#生成并存储第三位数字
+c=random.choice(['1','2','3','4','5','6','7','8','9','0'])
+#生成并存储第四位数字
+d=random.choice(['1','2','3','4','5','6','7','8','9','0'])
+#打印出已经存储的验证码
+print("验证码为：",a,b,c,d)
+</code></pre>
+<blockquote>
+<p>----著作权由作者所有----</p>
+</blockquote>
+</div>
+</body>
+
+</html>
