@@ -5,6 +5,6 @@ function getdatas(num){
                 url: "articles"+num+".txt",
                 success: function(data) {
                     $("body").html(data);
-//                           }
+                           }
             });
         }
